@@ -1,0 +1,38 @@
+//iniciar um controle de versões 
+git initi
+
+//verificar atualizações/modificações na pasta
+git status
+
+//adicionar o arquivo mencionado na proxima versão
+git add nomedoarquivo.extensaodoarquivo
+
+//criar a próxima versão
+git commit -m "descrição breve da versão criada"
+
+//adicionar nome do usuário
+git config --global user.name "seu nome"
+
+//adicionar email do usuário
+git config --global user.email "seu email"
+
+//adicionar todas as alterações do projeto na próxima versão
+git add .
+
+//lista todos os commit's 
+git log
+
+//retorna para um commit pelo id
+git reset --hard NumerodoIDdoCommit
+
+//retorna para um determinado número de commit's
+git reset --hard head~1
+
+//vincular com repositorio remoto
+git remote + endereço do repositório
+
+//subir para repositório remoto
+git push -u origin main
+
+//verificar o repositório remoto
+git push
