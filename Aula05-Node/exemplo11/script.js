@@ -52,5 +52,5 @@ function classificarIMC(argImc){
    }
 
    //console.log(classificacao)
-   document.getElementById("status").innerHTML = classificacao
+   document.getElementById("status").innerHTML = classificacao 
 }
