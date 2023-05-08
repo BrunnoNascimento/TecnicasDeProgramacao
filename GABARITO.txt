@@ -1,0 +1,356 @@
+Pergunta 1)
+
+São muitos similares a tags, o que diferencia um do outro é que uma tag ele sempre vai apontar para um 
+commit, independente a evolução do software(commits posteriores), enquanto ele sempre aponta para o último commit
+feito naquela “tag”, criado um linha alternativa, estamos falando de?
+
+>>> Reposta correta: BRANCH <<<
+
+
+Pergunta 2) 
+
+Dentro do Git, tags são marcações na árvore de commits que apontam para um commit especifico. 
+Criando uma espécie de checkpoint. Sobre as criações de tags, avalie as asserções a seguir:
+
+I - Uma Tag deve ser criada sempre que se desejar adicionar um ponto de recuperação de um código estável em uma determinada branch.
+PORQUE
+II -Uma tag deve ser criada todas as vezes que um novo pacote for publicado em produção e apenas na branch master dos projetos.
+
+Após a análise das asserções sobre o Git, podemos dizer que:
+
+
+>>> Resposta Correta As Duas Afirmativas são verdadeiras  e a afirmativa II completementa a alternativa I. <<< 
+
+
+Pergunta 3)
+
+Sobre variáveis de ambiente, avalie as afirmativas a seguir:
+
+
+I.Podemos utilizar para armazenar dados como a porta do servidor;
+II.Podemos armazenar dados como url de conexão com o banco de dados;
+III.Podemos armazenar diversas opções ao longo do tempo;
+IV.Utiliza-se para inserir informações em um arquivo único, facilitando assim a administração.
+
+
+Sobre variáveis de ambiente, é correto o que se afirma em:
+
+
+>>> Resposta Correta: TODAS ESTÃO CORRETAS <<< 
+
+
+
+Pergunta 4)
+
+Sobre os template engine; avalie os itens a seguir.
+
+I.São bibliotecas completas com foco em lidar com o layout dos Sistemas.
+
+II.Existem diversas bibliotecas com suas particularidades de configuração de layout
+
+III.Processo de configuração o mesmo para qualquer biblioteca que você for utilizar como Engine
+
+Com base em seu conhecimento sobre templates engine é cometo o que se afirma em:
+
+
+>>> Resposta Correta: TODAS ESTÃO CORRETAS <<< 
+
+
+
+Pergunta 5)
+
+Qual a vantagem em usar uma infraestrutura baseada em microsserviços?
+
+
+>>> Resposta Correta: Rapidez com o que e a solução permite entregar software com qualidade <<< 
+
+
+Pergunta 6)
+
+A linguagem de programação JavaScript, como seu próprio nome diz, é uma linguagem scripting. Normalmente
+ uma linguagem scripting se define por uma linguagem de programação que disponibiliza ao programador a
+ possibilidade de controle de aplicações de terceiros. Sobre a utilização de tags para javascript, analise os itens abaixo:
+
+I - <javascript>
+II - <js>
+III - <scripting>
+IV - <script>
+V - <scriptlet>
+
+Podemos afirmar que são tags que podemos inserir conteúdo javascript os itens:
+
+ >>> Resposta Correta : IV - <script> <<<  
+
+
+Pergunta 7)
+
+Ele é um módulo para desenvolvimento de aplicações web de grande escala. Sua filosofia de trabalho foi 
+inspirada pelo framework Sinatra da linguagem Ruby. Estamos falando de?
+
+>>> Resposta Correta: FRAMEWORK EXPRESS <<< 
+
+
+Pergunta 8)
+
+Diferentemente da abordagem tradicional monolítica em que toda a aplicação é criada como um único bloco, 
+os microsserviços são componentes separados que trabalham juntos para realizar as mesmas tarefas. Cada um 
+dos componentes ou processos é um microsserviço. Sobre a arquitetura de microserviços, complete a frase a seguir:
+
+
+A arquitetura de microserviços é utilizada...
+
+
+>>> Resposta Correta: Desenvolver uma aplicação como um conjunto de pequenos serviços, 
+cada um funcionando em seu próprio processo <<<
+
+
+
+Pergunta 9)
+
+Em JavaScript, pode-se efetuar o controle de comportamentos dos navegadores por meio de pedaços de
+ código que são enviados na página Html.
+
+Além disso, podemos dizer que o JavaScript é uma __________ de script 
+que incorporado nos ______ Html, permite adicionar ___________ de apresentação 
+e interatividade em páginas.
+
+
+>>> Resposta Correta: Linguagem, Tags, Efeitos<<< 
+
+
+Pergunta 10)
+
+Nós podemos acessar, por exemplo, usuários (users) sobre o protocolo HTTTP usando o CRUD (Create, Read, Update e Delete) mapeada para uma API REST.
+
+I)GET /users – Método index que retorna a lista de usuários
+II)POST /users/ – Cria um novo usuário
+III)GET /users/:id – Retorna um único usuário através de seu id
+IV)PUT /users/:id – Atualiza um único usuário através de seu id
+V)DELETE /users/:id – Deleta um único usuário através de seu id
+
+
+Sobre o roteamento no express, pode-se dizer que estão correto os itens:
+
+
+>>> Resposta Correta: TODAS ESTÃO CORRETAS<<< 
+
+
+Pergunta 11)
+
+Em JavaScript, pode-se efetuar o controle de comportamentos dos navegadores por meio de pedaçõs de código
+que são enviados na página Html. Além disso, podemos dizer que o JavaScript é uma linguagem de script que
+incorporado nos tag’s Html, permite adicionar efeitos de apresentação e interatividade em páginas. 
+
+Com base nesse contexto analise os itens abaixo, sobre sintaxe pra trocar conteúdo do código 
+<p id="teste"> Este é um teste</p>:
+
+Podemos afirmar que para alterar o conteúdo do código mencionado, está correta a afirmativa:
+
+
+I - #teste.innerHTML = 'Olá';
+
+II - document.getElement('p').innerHTML = 'Olá';
+
+III - document.getElementById('teste').innerHTML = 'Olá';
+
+IV - document.getElementByName('p').innerHTML = 'Olá';
+
+V - document.getElementByParameter('p').innerHTML = 'Olá';
+
+
+>>> Resposta Correta: III - document.getElementById('teste').innerHTML = 'Olá'; <<< 
+
+
+Pergunta 12)
+
+A abordagem tradicional para o desenvolvimento de aplicações enfatiza as construções monolíticas. Nelas, todas
+as partes implantáveis ficam contidas na própria aplicação. Essa abordagem tem algumas desvantagens: quanto maior
+for a aplicação, maior será a dificuldade para solucionar problemas e adicionar novas funcionalidades rapidamente. 
+Adotar uma abordagem baseada em microsserviços para a criação de aplicações é a solução, além de incentivar o 
+desenvolvimento e acelerar a responsividade.Os microsserviços são ...
+
+>>> Resposta correta: Uma arquitetura e uma abordagem para escrever programas de software. <<<
+
+Pergunta 13)
+
+É um utilitário que irá monitorar todas as alterações nos arquivos de sua aplicação e reiniciar 
+automaticamente o servidor quando for necessário, estamos falando de?
+
+
+>>> Provável Resposta : Nodemon <<<
+
+
+Pergunta 14)
+
+Sobre o Node Js. avalie as afirmativas a seguir:
+I. E um framework javascript;
+II. Possibilita utilizar o javascript como linguagem no back-end dos projetos
+III. Não é uma linguagem de programação;
+IV. E uma plataforma de aplicação, na qual você escreve seus programas com Javascript que serão compilados, otimizados e interpretados pela máquina virtual V8.
+Após a avaliação das afirmativas sobre Node Js, é correto o que se afirma em
+
+a. II, III e IV
+b.le IV
+c.I e II
+e.I, II, III e IV
+
+
+>>> Resposta Correta: II, III, IV <<< 
+
+
+Pergunta 15)
+
+
+É um sistema de controle de versão distribuído de código aberto e gratuito, projetado para lidar com tudo, desde
+projetos pequenos até projetos grandes. Com ele é possível manter um histórico das alterações dos seus arquivos, 
+sabendo quem, por que e quando um arquivo foi editado. Sua principal funcionalidade, que o faz ser amplamente utilizado 
+em projetos de desenvolvimento de software, é a possibilidade de fazer o controle de versões de modo colaborativo, ou seja, 
+é possível que o mesmo arquivo seja modificado ao mesmo tempo por dois desenvolvedores diferentes, e que ambas as alterações 
+sejam salvas sem que nenhum código seja sobrescrito. Estamos falando de?
+
+
+>>> Resposta Correta Git <<<
+
+
+Pergunta 16)
+
+Um sistema onde regras de negócio, APIs, autenticação, banco de dados estão normalmente juntos. Vamos dizer
+que é o famoso sistema tradicional que normalmente você e eu fazemos por padrão. Possui alto acoplamento. Estamos
+falando de um sistema com qual arquitetura?
+
+
+>>> Resposta Correta: Sistema Monolítico <<<
+
+
+Pergunta 17)
+
+Todo programa escrito em JavaScript consiste em uma sequencia de instruções que pode estar inserida em uma de duas áreas (ou em ambas) de um documento html, por meio das tags <body> e <head>
+
+Analise os itens abaixo:
+
+I – O código JavaScript inserido entre as tags <body> e </body> é executado quando a referida página é acessada, caracterizando uma rotina principal.
+
+II – O código JavaScript inserido entre as tags <head> e </head> é executado na forma de uma função, sendo considerado uma rotina secundária.
+
+III – Seja qual for a área escolhida para escrever um código de programa em JavaScript, este deve estar definido entre as tags <script> e </script>.
+
+Sobre JavaScript, podemos dizer que estão corretos os itens:
+
+
+>>> Resposta Correta: I,II,III/TODAS ESTÃO CORRETAS<<<
+
+
+
+Pergunta 18)
+
+JavaScript é por natureza própria uma linguagem estruturada. A maior parte dos seus recursos é conseguida com a 
+utilização de funções, as quais podem ser internas (existentes no próprio ambiente de programação) ou externas 
+(definidas pelo próprio programador).
+
+Uma função é um trecho ______________ de programa com atribuições bem definidas. A utilização do
+ conceito de função torna a ______________ em JavaScript algo _______________ versátil.
+
+Assinale a alternativa que preenche corretamente as lacunas do parágrafo.
+
+
+>>> Resposta Correta da internet: Independente, Programação, bastante <<<
+
+
+
+Pergunta 19)
+
+
+
+No JavaScript podemos utilizar vários eventos em diversos elementos para interação com o usuário, analise os itens a seguir:
+
+I – onclick: evento de clique no mouse.
+
+II – ondblclick: evento de dois cliques no mouse.
+
+III – onfocus: evento de disparo antes de envio do formulário.
+
+IV - onsubmit: evento quando um elemento passa a ter o foco.
+
+Após a leitura e analise dos itens acima, podemos afirmar que referentes a eventos do JavaScript, estão corretos os itens:
+
+
+ 
+>>> Resposta correta: Apenas os itens I, II <<<
+
+
+
+Pergunta 20)
+
+É uma abordagem de desenvolvimento de software na qual um aplicativo ou serviço, suas dependências
+e sua configuração são empacotados juntos como uma imagem. O aplicativo pode ser testado como uma
+unidade e implantado como uma instância de imagem. Estamos falando de?
+
+
+>>> Resposta correta: Conteinerzação <<<
+
+
+Pergunta 21) 
+
+
+Sobre o Gitlab e o Github, avalie as seguintes afirmações:
+
+I)São plataformas de hospedagem de código-fonte;
+II)Permitem que os desenvolvedores contribuam em projetos privados ou abertos;
+III)Funcionam como uma rede social de código fonte;
+IV)Cada projeto contendo um código fonte é considerado um repositório.
+
+Sobre as afirmativas, é correto o que se afirma em:
+
+
+>>> Resposta correta: I, II, III e IV <<<
+
+
+
+Pergunta 22) 
+
+A abordagem tradicional para o desenvolvimento de aplicações enfatiza as construções 
+monolíticas. Nelas, todas as partes implantáveis ficam contidas na própria aplicação. Essa 
+abordagem tem algumas desvantagens: quanto maior for a aplicação, maior será a dificuldade 
+para solucionar problemas e adicionar novas funcionalidades rapidamente. Adotar uma abordagem 
+baseada em microsserviços para a criação de aplicações é a solução, além de incentivar o
+desenvolvimento e acelerar a responsividade.Os microsserviços são ...
+
+
+>>> Resposta correta: Uma arquitetura e uma abordagem para escrever programas de software. <<<
+
+
+
+Pergunta 23)
+
+
+Para fazer o servidor ler as variáveis de ambiente e utilizá-las, devemos 
+instalar uma extensão. Qual extensão deve ser instalada?
+
+
+>>> Resposta correta: Dotenv<<<
+
+
+Pergunta 24)
+
+Uma função funciona como um sub-programa dentro do programa. Em estudos de algoritmos
+funções/procedimentos são um conjunto de instruções que executa uma ou várias tarefas. Essas
+tarefas podem ser desde um cálculo até um procedimento específico, por exemplo, enviar uma 
+mensagem de alerta ao usuário. Selecione a alternativa que se refere à criação 
+de uma função no JavaScript.
+
+
+>>> Resposta correta : function minhaFuncao() <<<
+
+
+Pergunta 25)
+
+
+Essa abordagem de desenvolvimento de software valoriza a granularidade, a leveza e a capacidade
+de compartilhar processos semelhantes entre várias aplicações. Trata-se de um componente indispensável
+para a otimização do desenvolvimento de aplicações para um modelo nativo em nuvem. Estamos falando de?
+
+
+>>> Resposta correta : Microsserviços <<<
+
+
+
